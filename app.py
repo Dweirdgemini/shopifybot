@@ -1,7 +1,7 @@
 import requests
 from shopify.product import get_products, keyword_search, find_size
 from shopify.checkout import get_payment_token
-import settings
+from src import settings
 
 def main():
     session = requests.Session()
